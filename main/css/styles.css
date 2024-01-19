@@ -1,0 +1,22 @@
+:root{
+    --background-color: #ffffff;
+    --olympic-blue: #0077CC;
+    --olympic-black: #000000;
+    --olympic-red: #EE352E;
+    --olympic-yellow: #FFCC29;
+    --olympic-green: #009639;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+.summer{
+font-family: 'Bebas Neue', sans-serif;
+text-align: center;
+}
+

@@ -8,15 +8,142 @@
 }
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 body {
     min-height: 100vh;
     background-color: var(--background-color);
+    min-width: 100vw;
+}
+nav{
+   background-color: #e0e3e1;
+   box-shadow: 3px 3px 5px #b7b7b7;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover{
+    background-color: var(--olympic-yellow);
+}
+/* nav li:first-child{
+    margin-right: auto;
+} */
+.summer-games {
+    margin-right: auto;
+    color: #EE352E;
+}
+.summer-games a{
+    padding-left: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.side-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: #f8aeab1d;
+    box-shadow: -5px 0 10px black;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.side-bar li{
+    width: 100%;
+}
+.side-bar a{
+    width: 100%;
 }
 .summer{
 font-family: 'Bebas Neue', sans-serif;
 text-align: center;
 }
 
+.main-image{
+    width: 100%;
+}
+.blue-box{
+    background-color: #99C9EB;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 320px;
+}
+.black-box{
+background-color: #999999;
+color: whitesmoke;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+height: 320px;
+}
+.red-box{
+    background-color: #F8AEAB;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 320px;
+}
+.yellow-box{
+    background-color: #FFEDB4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 320px;
+}
+.green-box{
+    background-color: #99D5B0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 320px;
+}
+
+@media (min-width: 380px){
+.hide-on-mobile{
+    display: none;
+}
+}
+@media (min-width: 430px){
+    .hide-on-mobile{
+        display: none;
+    }
+}
+@media (min-width: 640px){
+.hide-on-mobile{
+    display: block;
+}
+.hide-on-mobile-logo{
+    display: none;
+}
+}
+@media (min-width: 800px){
+
+}
+@media (min-width: 1100px){
+
+}
+@media (min-width: 1400px){
+
+}

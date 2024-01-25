@@ -84,15 +84,40 @@ nav a:hover{
 font-family: 'Bebas Neue', sans-serif;
 text-align: center;
 }
-
-.main-image{
+img{
+    object-fit: contain;
     width: 100%;
+}
+.intro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.blue-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
 }
 .blue-box{
     background-color: #99C9EB;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.black-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
 }
 .black-box{
 background-color: #999999;
@@ -100,24 +125,74 @@ color: whitesmoke;
 font-family: 'Montserrat', sans-serif;
 text-align: center;
 height: 320px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+}
+.red-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    
 }
 .red-box{
     background-color: #F8AEAB;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
 }
 .yellow-box{
     background-color: #FFEDB4;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
 }
 .green-box{
     background-color: #99D5B0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: .3rem;
+    background-color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: var(--olympic-black);
+    cursor: pointer;
+}
+.enter:hover{
+    background-color: var(--olympic-yellow);
+    color: black;
 }
 
 @media (min-width: 380px){

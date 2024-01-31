@@ -80,10 +80,19 @@ nav a:hover{
 .side-bar a{
     width: 100%;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
 .paintball-container-one, .paintball-container-two, .paintball-container-three, .paintball-container-four, .paintball-container-five, .paintball-container-six, .paintball-container-seven {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: 'Bebas Neue', sans-serif;
 
 

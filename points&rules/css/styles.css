@@ -1,4 +1,4 @@
-:root{
+:root {
     --background-color: #ffffff;
     --olympic-blue: #0077CC;
     --olympic-black: #000000;
@@ -6,32 +6,37 @@
     --olympic-yellow: #FFCC29;
     --olympic-green: #009639;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 body {
     min-height: 100vh;
     background-color: var(--background-color);
-    min-width: 100vw;
 }
-nav{
-   background-color: #e0e3e1;
-   box-shadow: 3px 3px 5px #b7b7b7;
+
+nav {
+    background-color: #e0e3e1;
+    box-shadow: 3px 3px 5px #b7b7b7;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-nav li{
+
+nav li {
     height: 50px;
 
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -40,24 +45,24 @@ nav a{
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: var(--olympic-yellow);
 }
-/* nav li:first-child{
-    margin-right: auto;
-} */
+
 .summer-games {
     margin-right: auto;
     color: #EE352E;
 }
-.summer-games a{
+
+.summer-games a {
     padding-left: 5px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
 }
 
 
-.side-bar{
+.side-bar {
     position: fixed;
     top: 0;
     right: 0;
@@ -72,15 +77,19 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
-.side-bar li{
+
+.side-bar li {
     width: 100%;
 }
-.side-bar a{
+
+.side-bar a {
     width: 100%;
 }
-.info-team{
+
+
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,60 +98,67 @@ nav a:hover{
     margin-bottom: 3rem;
     font-family: 'Bebas Neue', sans-serif;
 }
-.team-one{
-    background: rgba(24, 59, 255, 0.315);
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    font-family: 'Bebas Neue', sans-serif;
-}
-.team-two{
-    background: rgba(255, 24, 24, 0.315);
-    height: 300px;
-    display: flex;
-    justify-content: center;
+
+.points-container {
+    background-color: #acccff;
+    height: 350px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
     margin-bottom: 2rem;
-    font-family: 'Bebas Neue', sans-serif;
 }
-.info-container{
-    background: rgba(179, 179, 177, 0.973);
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
+
+.points-container p {
+    padding: .5rem;
+}
+
+.point-container {
+    background-color: #acccff;
+    height: 250px;
+border-radius: 8px;
+
+}
+
+h2 {
     text-align: center;
-    line-height: 1.5rem;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+.c-p {
+    display: flex;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
 }
-@media (min-width: 380px){
-    .hide-on-mobile{
+.c-p p{
+    padding: .5rem;
+    text-transform: capitalize;
+}
+
+@media (min-width: 380px) {
+    .hide-on-mobile {
         display: none;
     }
+}
+
+@media (min-width: 430px) {
+    .hide-on-mobile {
+        display: none;
     }
-    @media (min-width: 430px){
-        .hide-on-mobile{
-            display: none;
-        }
-    }
-    @media (min-width: 640px){
-    .hide-on-mobile{
+}
+
+@media (min-width: 640px) {
+    .hide-on-mobile {
         display: block;
     }
-    .hide-on-mobile-logo{
+
+    .hide-on-mobile-logo {
         display: none;
     }
-    }
-    @media (min-width: 800px){
-    
-    }
-    @media (min-width: 1100px){
-    
-    }
-    @media (min-width: 1400px){
-    
-    }
+}
+
+@media (min-width: 800px) {}
+
+@media (min-width: 1100px) {}
+
+@media (min-width: 1400px) {}

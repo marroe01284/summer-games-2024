@@ -71,7 +71,7 @@ nav a:hover {
     width: 250px;
     z-index: 999;
     backdrop-filter: blur(10px);
-    background-color: #f8aeab1d;
+    background-color: #ffffff;
     box-shadow: -5px 0 10px black;
     display: none;
     flex-direction: column;

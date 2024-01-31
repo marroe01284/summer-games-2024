@@ -8,7 +8,7 @@ enterBTN.onclick = function () {
     const isAgeok = oldEnough(age);
 
     if (isAgeok) {
-        document.location.href = "../main/home.html";
+        document.location.href = "home.html";
     } else {
         alert("you shall not pass!")
     }

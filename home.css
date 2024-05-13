@@ -1,4 +1,4 @@
-:root{
+:root {
     --background-color: #ffffff;
     --olympic-blue: #0077CC;
     --olympic-black: #000000;
@@ -6,32 +6,38 @@
     --olympic-yellow: #FFCC29;
     --olympic-green: #009639;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 body {
     min-height: 100vh;
     background-color: var(--background-color);
     min-width: 100vw;
 }
-nav{
-   background-color: #e0e3e1;
-   box-shadow: 3px 3px 5px #b7b7b7;
+
+nav {
+    background-color: #e0e3e1;
+    box-shadow: 3px 3px 5px #b7b7b7;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-nav li{
+
+nav li {
     height: 50px;
 
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -40,9 +46,11 @@ nav a{
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: var(--olympic-yellow);
 }
+
 /* nav li:first-child{
     margin-right: auto;
 } */
@@ -50,14 +58,15 @@ nav a:hover{
     margin-right: auto;
     color: #EE352E;
 }
-.summer-games a{
+
+.summer-games a {
     padding-left: 5px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
 }
 
 
-.side-bar{
+.side-bar {
     position: fixed;
     top: 0;
     right: 0;
@@ -72,23 +81,28 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
-.side-bar li{
+
+.side-bar li {
     width: 100%;
 }
-.side-bar a{
+
+.side-bar a {
     width: 100%;
 }
-.summer{
-font-family: 'Bebas Neue', sans-serif;
-text-align: center;
+
+.summer {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
-img{
+
+img {
     object-fit: contain;
     width: 100%;
 }
-.intro{
+
+.intro {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -97,18 +111,21 @@ img{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
 }
-.intro-p{
+
+.intro-p {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-.blue-box-container{
+
+.blue-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
 }
-.blue-box{
+
+.blue-box {
     background-color: #99C9EB;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -117,33 +134,37 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.black-box-container{
+
+.black-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
 }
-.black-box{
-background-color: #999999;
-color: whitesmoke;
-font-family: 'Montserrat', sans-serif;
-text-align: center;
-height: 320px;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 8px;
+
+.black-box {
+    background-color: #999999;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
-.red-box-container{
+
+.red-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
-    
+
 }
-.red-box{
+
+.red-box {
     background-color: #F8AEAB;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -153,13 +174,15 @@ border-radius: 8px;
     justify-content: center;
     align-items: center;
 }
-.yellow-box-container{
+
+.yellow-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
 }
-.yellow-box{
+
+.yellow-box {
     background-color: #FFEDB4;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -169,13 +192,15 @@ border-radius: 8px;
     justify-content: center;
     align-items: center;
 }
-.green-box-container{
+
+.green-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
 }
-.green-box{
+
+.green-box {
     background-color: #99D5B0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -185,7 +210,8 @@ border-radius: 8px;
     justify-content: center;
     align-items: center;
 }
-.enter{
+
+.enter {
     width: 9rem;
     height: 2rem;
     margin-top: 2rem;
@@ -196,35 +222,43 @@ border-radius: 8px;
     color: var(--olympic-black);
     cursor: pointer;
 }
-.enter:hover{
+
+.enter:hover {
     background-color: var(--olympic-yellow);
     color: black;
 }
 
-@media (min-width: 380px){
-.hide-on-mobile{
-    display: none;
+.link-btn {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
 }
-}
-@media (min-width: 430px){
-    .hide-on-mobile{
+
+@media (min-width: 380px) {
+    .hide-on-mobile {
         display: none;
     }
 }
-@media (min-width: 640px){
-.hide-on-mobile{
-    display: block;
-}
-.hide-on-mobile-logo{
-    display: none;
-}
-}
-@media (min-width: 800px){
 
+@media (min-width: 430px) {
+    .hide-on-mobile {
+        display: none;
+    }
 }
-@media (min-width: 1100px){
 
-}
-@media (min-width: 1400px){
+@media (min-width: 640px) {
+    .hide-on-mobile {
+        display: block;
+    }
 
+    .hide-on-mobile-logo {
+        display: none;
+    }
 }
+
+@media (min-width: 800px) {}
+
+@media (min-width: 1100px) {}
+
+@media (min-width: 1400px) {}
